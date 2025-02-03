@@ -57,9 +57,9 @@ body{
     float: left;
     border-radius: 20px;
     transition: opacity 0.5s ease;
-    -webkit-box-shadow: 33px 6px 67px 0px rgba(255,213,0,1);
--moz-box-shadow: 33px 6px 67px 0px rgba(255,213,0,1);
-box-shadow: 33px 6px 67px 0px rgba(255,213,0,1);
+    box-shadow: 10px 7px 33px 9px rgba(199,146,8,0.8);
+    -webkit-box-shadow: 10px 7px 33px 9px rgba(199,146,8,0.8);
+    -moz-box-shadow: 10px 7px 33px 9px rgba(199,146,8,0.8);
    
 }
 .text {
@@ -162,8 +162,29 @@ box-shadow: 33px 6px 67px 0px rgba(222,20,222,1);
 .htmllll{
     margin-left: 60px;
 }
+.card_five{
+    width: 200px;  
+    height: 263px;
+    padding: 5px; 
+    margin-top: 100px;
+    margin-left: 80px;
+    border: solid 1px black; 
+    background-color:rgb(165, 44, 139);
+    float: left; 
+    position: relative; 
+    left: 10px;
+    border-radius: 20px; 
+    background: rgb(255,231,0);
+    background: linear-gradient(90deg, rgba(255,231,0,1) 10%, rgba(255,231,0,1) 100%);  
+    box-shadow: 10px 7px 33px 9px rgba(199,179,8,0.8);
+-webkit-box-shadow: 10px 7px 33px 9px rgba(199,179,8,0.8);
+-moz-box-shadow: 10px 7px 33px 9px rgba(199,179,8,0.8);
 
-
+}
+.card_five img{
+    width: 190px;
+    height: 150px;
+}
 /* .line_two{
     width: 1000px;
     height: 1px;
